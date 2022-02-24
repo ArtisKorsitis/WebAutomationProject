@@ -1,0 +1,13 @@
+*.xml
+*.html
+*.png
+*.ipa
+*.txt
+*.log
+.DS_Store
+allure-report/
+node_modules/
+allure-results/**/*.xml
+/.idea
+.vscode
+*.iml

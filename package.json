@@ -1,0 +1,23 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.17.5",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/register": "^7.17.0",
+        "@faker-js/faker": "^6.0.0-alpha.7",
+        "@wdio/allure-reporter": "^7.16.14",
+        "@wdio/cli": "^7.16.15",
+        "@wdio/cucumber-framework": "^7.16.14",
+        "@wdio/local-runner": "^7.16.15",
+        "@wdio/spec-reporter": "^7.16.14",
+        "chromedriver": "^98.0.1",
+        "wdio-chromedriver-service": "^7.2.8",
+        "wdio-wait-for": "^2.2.1"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js",
+        "cucumber": "npx wdio wdio.conf.js"
+    }
+}
